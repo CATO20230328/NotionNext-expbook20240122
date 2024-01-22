@@ -5,8 +5,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '欢迎来到经验之书', url: 'https://notion-next-expbook20240122.vercel.app' },
+    { title: '加入讨论群获取更多帮助', url: 'https://t.me/expbook' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -34,15 +34,11 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '分享经验',
+    '会很快乐吖',
+    '会很有趣吧~',
   ],
-  HEO_INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  HEO_INFO_CARD_URL: 'https://t.me/expbook', // 个人资料底部按钮链接
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
