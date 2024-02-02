@@ -161,6 +161,7 @@ const BLOG = {
   PREVIEW_TAG_COUNT: 16, // 首页最多展示的标签数量，0为不限制
 
   POST_DISABLE_GALLERY_CLICK: process.env.NEXT_PUBLIC_POST_DISABLE_GALLERY_CLICK || false, // 画册视图禁止点击，方便在友链页面的画册插入链接
+  GALLERY_BEAUTIFICATION: process.env.GALLERY_BEAUTIFICATION || false, // 画册视图美化与功能增强
 
   //   ********动态特效相关********
   // 鼠标点击烟花特效
